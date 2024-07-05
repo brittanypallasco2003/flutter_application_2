@@ -62,7 +62,9 @@ flutter:
   assets:
   - images/mitad.jpg
   - images/ronda.jpg
-  - images/plazaG.jpg
+  - images/plazaG.jpeg
+  - images/palmas.jpg
+  - images/cascada-pita.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

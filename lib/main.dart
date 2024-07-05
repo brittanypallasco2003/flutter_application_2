@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
           child: Center(
             child: Column(
               children: [
+                ImageSection(image: 'images/ronda.jpg'),
                 TitleSection(name: 'La Ronda', location: 'Quito, Ecuador'),
                 ButtonSection(),
                 TextSection(description: 'Es un barrio histórico de Quito, Ecuador, conocido por sus calles empedradas, casas coloniales y su vibrante vida nocturna.'),
@@ -25,9 +26,18 @@ class MyApp extends StatelessWidget {
                 TitleSection(name: 'La Mitad del Mundo', location: 'Quito, Ecuador'),
                 ButtonSection(),
                 TextSection(description: 'Es un monumento y complejo turístico situado cerca de Quito, que marca la línea ecuatorial. El monumento principal está acompañado por un museo que explica la importancia científica y cultural de la línea ecuatorial.'),
+                ImageSection(image: 'images/plazaG.jpeg'),
                 TitleSection(name: 'La Plaza Grande', location: 'Quito, Ecuador'),
                 ButtonSection(),
                 TextSection(description: 'También conocida como Plaza de la Independencia, es el corazón histórico y político de Quito. Rodeada por edificios importantes como el Palacio de Carondelet (sede del gobierno), la Catedral Metropolitana, y el Palacio Arzobispal'),
+                ImageSection(image: 'images/palmas.jpg'),
+                TitleSection(name: 'Las Palmas', location: 'Quito, Ecuador'),
+                ButtonSection(),
+                TextSection(description: 'La Playa Las Palmas, ubicada en la ciudad de Esmeraldas, Ecuador, es conocida por su extensa franja de arena dorada y sus aguas cálidas y tranquilas del Océano Pacífico. Ofrece una variedad de actividades como natación, surf, y paseos en bote'),
+                ImageSection(image: 'images/cascada-pita.jpg'),
+                TitleSection(name: 'Cascadas del Pita', location: 'Quito, Ecuador'),
+                ButtonSection(),
+                TextSection(description: 'Las Cascadas del Pita están situadas en el valle de los Chillos, cerca de Quito. Son un conjunto de cascadas formadas por el río Pita, el cual nace en el glaciar del volcán Antisana. Estas cascadas se encuentran dentro del Parque Nacional Cayambe-Coca, una área protegida que alberga una rica biodiversidad y diversos paisajes.'),
               ],
             ),
           ),
