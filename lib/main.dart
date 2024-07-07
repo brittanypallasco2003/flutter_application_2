@@ -89,10 +89,10 @@ class TitleSection extends StatelessWidget {
           ),
           // /3/
           Icon(
-            Icons.location_city,
+            Icons.star,
             color: Colors.red[500],
           ),
-          const Text('41'),
+          const Text('65'),
         ],
       ),
     );
